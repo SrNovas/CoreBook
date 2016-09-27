@@ -13,9 +13,9 @@
         <relationship name="books" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Book" inverseName="authors" inverseEntity="Book" syncable="YES"/>
     </entity>
     <entity name="Book" syncable="YES">
-        <attribute name="name" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
-        <attribute name="urlImage" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="urlPdf" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="urlImage" attributeType="String" syncable="YES"/>
+        <attribute name="urlPdf" attributeType="String" syncable="YES"/>
         <relationship name="annotation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Annotation" inverseName="book" inverseEntity="Annotation" syncable="YES"/>
         <relationship name="authors" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Author" inverseName="books" inverseEntity="Author" syncable="YES"/>
         <relationship name="bookTags" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BookTag" inverseName="book" inverseEntity="BookTag" syncable="YES"/>
