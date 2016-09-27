@@ -14,6 +14,8 @@
 		3A6F21AB1D9AD4C600E518B1 /* CoreBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F21AA1D9AD4C600E518B1 /* CoreBookTests.m */; };
 		3A6F21B61D9AD4C600E518B1 /* CoreBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F21B51D9AD4C600E518B1 /* CoreBookUITests.m */; };
 		3A6F21C61D9AD58500E518B1 /* AGTSimpleCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F21C51D9AD58500E518B1 /* AGTSimpleCoreDataStack.m */; };
+		3A6F21C91D9AD77200E518B1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6F21C81D9AD77200E518B1 /* CoreData.framework */; };
+		3A6F21CC1D9AD9F800E518B1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F21CA1D9AD9F800E518B1 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3A6F21B71D9AD4C600E518B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A6F21C41D9AD58500E518B1 /* AGTSimpleCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTSimpleCoreDataStack.h; sourceTree = "<group>"; };
 		3A6F21C51D9AD58500E518B1 /* AGTSimpleCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTSimpleCoreDataStack.m; sourceTree = "<group>"; };
+		3A6F21C81D9AD77200E518B1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3A6F21CB1D9AD9F800E518B1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6F21C91D9AD77200E518B1 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,7 @@
 				3A6F21A91D9AD4C600E518B1 /* CoreBookTests */,
 				3A6F21B41D9AD4C600E518B1 /* CoreBookUITests */,
 				3A6F218E1D9AD4C500E518B1 /* Products */,
+				3A6F21C71D9AD77200E518B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,8 +147,17 @@
 			children = (
 				3A6F21C41D9AD58500E518B1 /* AGTSimpleCoreDataStack.h */,
 				3A6F21C51D9AD58500E518B1 /* AGTSimpleCoreDataStack.m */,
+				3A6F21CA1D9AD9F800E518B1 /* Model.xcdatamodeld */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		3A6F21C71D9AD77200E518B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A6F21C81D9AD77200E518B1 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +295,7 @@
 				3A6F21951D9AD4C500E518B1 /* AppDelegate.m in Sources */,
 				3A6F21921D9AD4C500E518B1 /* main.m in Sources */,
 				3A6F21C61D9AD58500E518B1 /* AGTSimpleCoreDataStack.m in Sources */,
+				3A6F21CC1D9AD9F800E518B1 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +538,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A6F21CA1D9AD9F800E518B1 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A6F21CB1D9AD9F800E518B1 /* Model.xcdatamodel */,
+			);
+			currentVersion = 3A6F21CB1D9AD9F800E518B1 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3A6F21851D9AD4C500E518B1 /* Project object */;
 }
