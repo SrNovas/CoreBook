@@ -8,6 +8,17 @@
 
 @implementation APLBookTag
 
-// Custom logic goes here.
++(instancetype) bookTagWithBook: (APLBook *) book
+                            tag:(APLTag *) tag
+                        context:(NSManagedObjectContext *) context{
+    
+    APLBookTag *myTag = [self insertInManagedObjectContext:context];
+    
+    myTag.book = book;
+    myTag.tag = tag;
+    
+    return myTag;
+    
+}
 
 @end

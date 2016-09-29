@@ -7,16 +7,34 @@
 //
 
 #import "AppDelegate.h"
+#import "APLBook.h"
+#import "AGTSimpleCoreDataStack.h"
 
 @interface AppDelegate ()
+
+@property(strong, nonatomic) AGTSimpleCoreDataStack *model;
 
 @end
 
 @implementation AppDelegate
 
+-(void) libroEnLlamas{
+    
+    APLBook *prueba = [APLBook bookWithName:@"CoreData"
+                                   urlImage:@"https://thumbs.dreamstime.com/x/libro-ardiente-en-las-llamas-del-fuego-20761815.jpg"
+                                     urlPDF:@"SGAE"
+                                    context:self.model.context];
+    
+    NSLog(@"%@", prueba);
+    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.model = [AGTSimpleCoreDataStack coreDataStackWithModelName:@"CoreBook"];
+    
+    [self libroEnLlamas];
+    
     return YES;
 }
 

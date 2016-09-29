@@ -8,6 +8,19 @@
 
 @implementation APLAnnotation
 
-// Custom logic goes here.
++(instancetype) annotationBook:(APLBook *) annBook
+                             WithTitle:(NSString *) annTitle
+                              text:(NSString *) annText
+                             photo:(UIImage *) annPhoto
+                           context:(NSManagedObjectContext *) context{
+    
+    APLAnnotation *myText = [self insertInManagedObjectContext:context];
+    
+    myText.name = annTitle;
+    myText.text = annText;
+    
+    return myText;
+    
+}
 
 @end

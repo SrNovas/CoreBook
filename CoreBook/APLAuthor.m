@@ -8,6 +8,14 @@
 
 @implementation APLAuthor
 
-// Custom logic goes here.
-
++(instancetype) authorWithName:(NSString *) name
+                       context:(NSManagedObjectContext *) context{
+    
+    APLAuthor *theAuthor = [self insertInManagedObjectContext:context];
+    
+    theAuthor.name = name;
+    
+    return theAuthor;
+    
+}
 @end

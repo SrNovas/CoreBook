@@ -1,5 +1,10 @@
 #import "_APLBook.h"
 
 @interface APLBook : _APLBook
-// Custom logic goes here.
+
++(instancetype) bookWithName:(NSString *) name
+                    urlImage:(NSString *) image
+                      urlPDF:(NSString *) pdf
+                     context:(NSManagedObjectContext *) context;
+
 @end

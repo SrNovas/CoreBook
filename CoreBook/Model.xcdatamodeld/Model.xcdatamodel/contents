@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G1004" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Annotation" syncable="YES">
+    <entity name="Annotation" representedClassName="APLAnnotation" syncable="YES">
         <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
         <attribute name="modificationDate" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
@@ -8,11 +8,11 @@
         <relationship name="book" maxCount="1" deletionRule="Nullify" destinationEntity="Book" inverseName="annotation" inverseEntity="Book" syncable="YES"/>
         <relationship name="photo" maxCount="1" deletionRule="Cascade" destinationEntity="Photo" inverseName="annotations" inverseEntity="Photo" syncable="YES"/>
     </entity>
-    <entity name="Author" syncable="YES">
+    <entity name="Author" representedClassName="APLAuthor" syncable="YES">
         <attribute name="name" attributeType="String" syncable="YES"/>
         <relationship name="books" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Book" inverseName="authors" inverseEntity="Book" syncable="YES"/>
     </entity>
-    <entity name="Book" syncable="YES">
+    <entity name="Book" representedClassName="APLBook" syncable="YES">
         <attribute name="name" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="urlImage" attributeType="String" syncable="YES"/>
         <attribute name="urlPdf" attributeType="String" syncable="YES"/>
@@ -22,23 +22,23 @@
         <relationship name="coverImage" maxCount="1" deletionRule="Cascade" destinationEntity="Cover" inverseName="book" inverseEntity="Cover" syncable="YES"/>
         <relationship name="pdfDate" maxCount="1" deletionRule="Cascade" destinationEntity="PdfData" inverseName="book" inverseEntity="PdfData" syncable="YES"/>
     </entity>
-    <entity name="BookTag" syncable="YES">
+    <entity name="BookTag" representedClassName="APLBookTag" syncable="YES">
         <relationship name="book" maxCount="1" deletionRule="Nullify" destinationEntity="Book" inverseName="bookTags" inverseEntity="Book" syncable="YES"/>
         <relationship name="tag" maxCount="1" deletionRule="Nullify" destinationEntity="Tag" inverseName="bookTags" inverseEntity="Tag" syncable="YES"/>
     </entity>
-    <entity name="Cover" syncable="YES">
+    <entity name="Cover" representedClassName="APLCover" syncable="YES">
         <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
         <relationship name="book" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Book" inverseName="coverImage" inverseEntity="Book" syncable="YES"/>
     </entity>
-    <entity name="PdfData" syncable="YES">
+    <entity name="PdfData" representedClassName="APLPdfData" syncable="YES">
         <attribute name="pdfData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
         <relationship name="book" maxCount="1" deletionRule="Nullify" destinationEntity="Book" inverseName="pdfDate" inverseEntity="Book" syncable="YES"/>
     </entity>
-    <entity name="Photo" syncable="YES">
+    <entity name="Photo" representedClassName="APLPhoto" syncable="YES">
         <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
         <relationship name="annotations" toMany="YES" deletionRule="Nullify" destinationEntity="Annotation" inverseName="photo" inverseEntity="Annotation" syncable="YES"/>
     </entity>
-    <entity name="Tag" syncable="YES">
+    <entity name="Tag" representedClassName="APLTag" syncable="YES">
         <attribute name="name" attributeType="String" syncable="YES"/>
         <attribute name="proxyForSorting" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="bookTags" toMany="YES" deletionRule="Nullify" destinationEntity="BookTag" inverseName="tag" inverseEntity="BookTag" syncable="YES"/>

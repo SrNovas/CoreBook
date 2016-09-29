@@ -8,6 +8,19 @@
 
 @implementation APLBook
 
-// Custom logic goes here.
++(instancetype) bookWithName:(NSString *) name
+                    urlImage:(NSString *) image
+                      urlPDF:(NSString *) pdf
+                     context:(NSManagedObjectContext *) context{
+    
+    APLBook *book = [self insertInManagedObjectContext:context];
+    
+    book.name = name;
+    book.urlPdf = pdf;
+    book.urlImage = image;
+    
+    return book;
+    
+}
 
 @end

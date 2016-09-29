@@ -16,6 +16,22 @@
 		3A6F21C61D9AD58500E518B1 /* AGTSimpleCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F21C51D9AD58500E518B1 /* AGTSimpleCoreDataStack.m */; };
 		3A6F21C91D9AD77200E518B1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6F21C81D9AD77200E518B1 /* CoreData.framework */; };
 		3A6F21CC1D9AD9F800E518B1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F21CA1D9AD9F800E518B1 /* Model.xcdatamodeld */; };
+		3A6F22501D9C3BD500E518B1 /* _APLAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F22411D9C3BD500E518B1 /* _APLAnnotation.m */; };
+		3A6F22511D9C3BD500E518B1 /* _APLAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F22431D9C3BD500E518B1 /* _APLAuthor.m */; };
+		3A6F22521D9C3BD500E518B1 /* _APLBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F22451D9C3BD500E518B1 /* _APLBook.m */; };
+		3A6F22531D9C3BD500E518B1 /* _APLBookTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F22471D9C3BD500E518B1 /* _APLBookTag.m */; };
+		3A6F22541D9C3BD500E518B1 /* _APLCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F22491D9C3BD500E518B1 /* _APLCover.m */; };
+		3A6F22551D9C3BD500E518B1 /* _APLPdfData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F224B1D9C3BD500E518B1 /* _APLPdfData.m */; };
+		3A6F22561D9C3BD500E518B1 /* _APLPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F224D1D9C3BD500E518B1 /* _APLPhoto.m */; };
+		3A6F22571D9C3BD500E518B1 /* _APLTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F224F1D9C3BD500E518B1 /* _APLTag.m */; };
+		3A6F22681D9C3C1400E518B1 /* APLAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F22591D9C3C1400E518B1 /* APLAnnotation.m */; };
+		3A6F22691D9C3C1400E518B1 /* APLAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F225B1D9C3C1400E518B1 /* APLAuthor.m */; };
+		3A6F226A1D9C3C1400E518B1 /* APLBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F225D1D9C3C1400E518B1 /* APLBook.m */; };
+		3A6F226B1D9C3C1400E518B1 /* APLBookTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F225F1D9C3C1400E518B1 /* APLBookTag.m */; };
+		3A6F226C1D9C3C1400E518B1 /* APLCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F22611D9C3C1400E518B1 /* APLCover.m */; };
+		3A6F226D1D9C3C1400E518B1 /* APLPdfData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F22631D9C3C1400E518B1 /* APLPdfData.m */; };
+		3A6F226E1D9C3C1400E518B1 /* APLPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F22651D9C3C1400E518B1 /* APLPhoto.m */; };
+		3A6F226F1D9C3C1400E518B1 /* APLTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F22671D9C3C1400E518B1 /* APLTag.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +69,38 @@
 		3A6F21C51D9AD58500E518B1 /* AGTSimpleCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTSimpleCoreDataStack.m; sourceTree = "<group>"; };
 		3A6F21C81D9AD77200E518B1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3A6F21CB1D9AD9F800E518B1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		3A6F22401D9C3BD500E518B1 /* _APLAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _APLAnnotation.h; sourceTree = "<group>"; };
+		3A6F22411D9C3BD500E518B1 /* _APLAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _APLAnnotation.m; sourceTree = "<group>"; };
+		3A6F22421D9C3BD500E518B1 /* _APLAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _APLAuthor.h; sourceTree = "<group>"; };
+		3A6F22431D9C3BD500E518B1 /* _APLAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _APLAuthor.m; sourceTree = "<group>"; };
+		3A6F22441D9C3BD500E518B1 /* _APLBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _APLBook.h; sourceTree = "<group>"; };
+		3A6F22451D9C3BD500E518B1 /* _APLBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _APLBook.m; sourceTree = "<group>"; };
+		3A6F22461D9C3BD500E518B1 /* _APLBookTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _APLBookTag.h; sourceTree = "<group>"; };
+		3A6F22471D9C3BD500E518B1 /* _APLBookTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _APLBookTag.m; sourceTree = "<group>"; };
+		3A6F22481D9C3BD500E518B1 /* _APLCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _APLCover.h; sourceTree = "<group>"; };
+		3A6F22491D9C3BD500E518B1 /* _APLCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _APLCover.m; sourceTree = "<group>"; };
+		3A6F224A1D9C3BD500E518B1 /* _APLPdfData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _APLPdfData.h; sourceTree = "<group>"; };
+		3A6F224B1D9C3BD500E518B1 /* _APLPdfData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _APLPdfData.m; sourceTree = "<group>"; };
+		3A6F224C1D9C3BD500E518B1 /* _APLPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _APLPhoto.h; sourceTree = "<group>"; };
+		3A6F224D1D9C3BD500E518B1 /* _APLPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _APLPhoto.m; sourceTree = "<group>"; };
+		3A6F224E1D9C3BD500E518B1 /* _APLTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _APLTag.h; sourceTree = "<group>"; };
+		3A6F224F1D9C3BD500E518B1 /* _APLTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _APLTag.m; sourceTree = "<group>"; };
+		3A6F22581D9C3C1400E518B1 /* APLAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLAnnotation.h; sourceTree = "<group>"; };
+		3A6F22591D9C3C1400E518B1 /* APLAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLAnnotation.m; sourceTree = "<group>"; };
+		3A6F225A1D9C3C1400E518B1 /* APLAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLAuthor.h; sourceTree = "<group>"; };
+		3A6F225B1D9C3C1400E518B1 /* APLAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLAuthor.m; sourceTree = "<group>"; };
+		3A6F225C1D9C3C1400E518B1 /* APLBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLBook.h; sourceTree = "<group>"; };
+		3A6F225D1D9C3C1400E518B1 /* APLBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLBook.m; sourceTree = "<group>"; };
+		3A6F225E1D9C3C1400E518B1 /* APLBookTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLBookTag.h; sourceTree = "<group>"; };
+		3A6F225F1D9C3C1400E518B1 /* APLBookTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLBookTag.m; sourceTree = "<group>"; };
+		3A6F22601D9C3C1400E518B1 /* APLCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLCover.h; sourceTree = "<group>"; };
+		3A6F22611D9C3C1400E518B1 /* APLCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLCover.m; sourceTree = "<group>"; };
+		3A6F22621D9C3C1400E518B1 /* APLPdfData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLPdfData.h; sourceTree = "<group>"; };
+		3A6F22631D9C3C1400E518B1 /* APLPdfData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLPdfData.m; sourceTree = "<group>"; };
+		3A6F22641D9C3C1400E518B1 /* APLPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLPhoto.h; sourceTree = "<group>"; };
+		3A6F22651D9C3C1400E518B1 /* APLPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLPhoto.m; sourceTree = "<group>"; };
+		3A6F22661D9C3C1400E518B1 /* APLTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLTag.h; sourceTree = "<group>"; };
+		3A6F22671D9C3C1400E518B1 /* APLTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLTag.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +193,8 @@
 		3A6F21C31D9AD4F000E518B1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3A6F223F1D9C3BBC00E518B1 /* Machine */,
+				3A6F223E1D9C3BB600E518B1 /* Human */,
 				3A6F21C41D9AD58500E518B1 /* AGTSimpleCoreDataStack.h */,
 				3A6F21C51D9AD58500E518B1 /* AGTSimpleCoreDataStack.m */,
 				3A6F21CA1D9AD9F800E518B1 /* Model.xcdatamodeld */,
@@ -158,6 +208,52 @@
 				3A6F21C81D9AD77200E518B1 /* CoreData.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A6F223E1D9C3BB600E518B1 /* Human */ = {
+			isa = PBXGroup;
+			children = (
+				3A6F22581D9C3C1400E518B1 /* APLAnnotation.h */,
+				3A6F22591D9C3C1400E518B1 /* APLAnnotation.m */,
+				3A6F225A1D9C3C1400E518B1 /* APLAuthor.h */,
+				3A6F225B1D9C3C1400E518B1 /* APLAuthor.m */,
+				3A6F225C1D9C3C1400E518B1 /* APLBook.h */,
+				3A6F225D1D9C3C1400E518B1 /* APLBook.m */,
+				3A6F225E1D9C3C1400E518B1 /* APLBookTag.h */,
+				3A6F225F1D9C3C1400E518B1 /* APLBookTag.m */,
+				3A6F22601D9C3C1400E518B1 /* APLCover.h */,
+				3A6F22611D9C3C1400E518B1 /* APLCover.m */,
+				3A6F22621D9C3C1400E518B1 /* APLPdfData.h */,
+				3A6F22631D9C3C1400E518B1 /* APLPdfData.m */,
+				3A6F22641D9C3C1400E518B1 /* APLPhoto.h */,
+				3A6F22651D9C3C1400E518B1 /* APLPhoto.m */,
+				3A6F22661D9C3C1400E518B1 /* APLTag.h */,
+				3A6F22671D9C3C1400E518B1 /* APLTag.m */,
+			);
+			name = Human;
+			sourceTree = "<group>";
+		};
+		3A6F223F1D9C3BBC00E518B1 /* Machine */ = {
+			isa = PBXGroup;
+			children = (
+				3A6F22401D9C3BD500E518B1 /* _APLAnnotation.h */,
+				3A6F22411D9C3BD500E518B1 /* _APLAnnotation.m */,
+				3A6F22421D9C3BD500E518B1 /* _APLAuthor.h */,
+				3A6F22431D9C3BD500E518B1 /* _APLAuthor.m */,
+				3A6F22441D9C3BD500E518B1 /* _APLBook.h */,
+				3A6F22451D9C3BD500E518B1 /* _APLBook.m */,
+				3A6F22461D9C3BD500E518B1 /* _APLBookTag.h */,
+				3A6F22471D9C3BD500E518B1 /* _APLBookTag.m */,
+				3A6F22481D9C3BD500E518B1 /* _APLCover.h */,
+				3A6F22491D9C3BD500E518B1 /* _APLCover.m */,
+				3A6F224A1D9C3BD500E518B1 /* _APLPdfData.h */,
+				3A6F224B1D9C3BD500E518B1 /* _APLPdfData.m */,
+				3A6F224C1D9C3BD500E518B1 /* _APLPhoto.h */,
+				3A6F224D1D9C3BD500E518B1 /* _APLPhoto.m */,
+				3A6F224E1D9C3BD500E518B1 /* _APLTag.h */,
+				3A6F224F1D9C3BD500E518B1 /* _APLTag.m */,
+			);
+			name = Machine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,8 +389,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A6F21951D9AD4C500E518B1 /* AppDelegate.m in Sources */,
+				3A6F22541D9C3BD500E518B1 /* _APLCover.m in Sources */,
+				3A6F22551D9C3BD500E518B1 /* _APLPdfData.m in Sources */,
+				3A6F22681D9C3C1400E518B1 /* APLAnnotation.m in Sources */,
+				3A6F22691D9C3C1400E518B1 /* APLAuthor.m in Sources */,
 				3A6F21921D9AD4C500E518B1 /* main.m in Sources */,
+				3A6F226D1D9C3C1400E518B1 /* APLPdfData.m in Sources */,
+				3A6F22571D9C3BD500E518B1 /* _APLTag.m in Sources */,
+				3A6F226A1D9C3C1400E518B1 /* APLBook.m in Sources */,
 				3A6F21C61D9AD58500E518B1 /* AGTSimpleCoreDataStack.m in Sources */,
+				3A6F226E1D9C3C1400E518B1 /* APLPhoto.m in Sources */,
+				3A6F22531D9C3BD500E518B1 /* _APLBookTag.m in Sources */,
+				3A6F226F1D9C3C1400E518B1 /* APLTag.m in Sources */,
+				3A6F22521D9C3BD500E518B1 /* _APLBook.m in Sources */,
+				3A6F226B1D9C3C1400E518B1 /* APLBookTag.m in Sources */,
+				3A6F22561D9C3BD500E518B1 /* _APLPhoto.m in Sources */,
+				3A6F22501D9C3BD500E518B1 /* _APLAnnotation.m in Sources */,
+				3A6F226C1D9C3C1400E518B1 /* APLCover.m in Sources */,
+				3A6F22511D9C3BD500E518B1 /* _APLAuthor.m in Sources */,
 				3A6F21CC1D9AD9F800E518B1 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
