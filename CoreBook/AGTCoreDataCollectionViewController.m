@@ -7,7 +7,6 @@
 //
 
 #import "AGTCoreDataCollectionViewController.h"
-#import "AGTDetailViewController.h"
 
 @interface AGTCoreDataCollectionViewController ()<NSFetchedResultsControllerDelegate>
 @property (strong, nonatomic) NSMutableArray *objectChanges;
