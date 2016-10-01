@@ -1,12 +1,14 @@
 #import "_APLAnnotation.h"
 @import UIKit;
 
-@interface APLAnnotation : _APLAnnotation
+@interface APLAnnotation : _APLAnnotation {}
 
 +(instancetype) annotationWithBook:(APLBook *) annBook
-                         title:(NSString *) image
-                          text:(NSString *) pdf
+                         title:(NSString *) annTitle
+                          text:(NSString *) annText
                          photo:(UIImage *) annPhoto
-                       context:(NSManagedObjectContext *) context;
+                       context:(NSManagedObjectContext *) annContext;
+
+-(NSArray *) array;
 
 @end

@@ -32,6 +32,10 @@
 		3A6F226D1D9C3C1400E518B1 /* APLPdfData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F22631D9C3C1400E518B1 /* APLPdfData.m */; };
 		3A6F226E1D9C3C1400E518B1 /* APLPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F22651D9C3C1400E518B1 /* APLPhoto.m */; };
 		3A6F226F1D9C3C1400E518B1 /* APLTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F22671D9C3C1400E518B1 /* APLTag.m */; };
+		3A6F22731D9D967000E518B1 /* AGTCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F22721D9D967000E518B1 /* AGTCoreDataTableViewController.m */; };
+		3A6F22761D9D96EA00E518B1 /* AGTCoreDataCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F22751D9D96EA00E518B1 /* AGTCoreDataCollectionViewController.m */; };
+		3A6F22801D9FBAB700E518B1 /* APLBookTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F227E1D9FBAB700E518B1 /* APLBookTableViewController.m */; };
+		3A6F22811D9FBAB700E518B1 /* APLBookTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A6F227F1D9FBAB700E518B1 /* APLBookTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +105,13 @@
 		3A6F22651D9C3C1400E518B1 /* APLPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLPhoto.m; sourceTree = "<group>"; };
 		3A6F22661D9C3C1400E518B1 /* APLTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLTag.h; sourceTree = "<group>"; };
 		3A6F22671D9C3C1400E518B1 /* APLTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLTag.m; sourceTree = "<group>"; };
+		3A6F22711D9D967000E518B1 /* AGTCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataTableViewController.h; sourceTree = "<group>"; };
+		3A6F22721D9D967000E518B1 /* AGTCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataTableViewController.m; sourceTree = "<group>"; };
+		3A6F22741D9D96EA00E518B1 /* AGTCoreDataCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataCollectionViewController.h; sourceTree = "<group>"; };
+		3A6F22751D9D96EA00E518B1 /* AGTCoreDataCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataCollectionViewController.m; sourceTree = "<group>"; };
+		3A6F227D1D9FBAB700E518B1 /* APLBookTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLBookTableViewController.h; sourceTree = "<group>"; };
+		3A6F227E1D9FBAB700E518B1 /* APLBookTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLBookTableViewController.m; sourceTree = "<group>"; };
+		3A6F227F1D9FBAB700E518B1 /* APLBookTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APLBookTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +164,7 @@
 		3A6F218F1D9AD4C500E518B1 /* CoreBook */ = {
 			isa = PBXGroup;
 			children = (
+				3A6F22701D9D965D00E518B1 /* Controllers */,
 				3A6F21C31D9AD4F000E518B1 /* Models */,
 				3A6F21931D9AD4C500E518B1 /* AppDelegate.h */,
 				3A6F21941D9AD4C500E518B1 /* AppDelegate.m */,
@@ -254,6 +266,44 @@
 				3A6F224F1D9C3BD500E518B1 /* _APLTag.m */,
 			);
 			name = Machine;
+			sourceTree = "<group>";
+		};
+		3A6F22701D9D965D00E518B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A6F22791D9FB9B000E518B1 /* Annotations */,
+				3A6F22781D9FB9A800E518B1 /* Books */,
+				3A6F22771D9FB99100E518B1 /* ExternalFiles */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3A6F22771D9FB99100E518B1 /* ExternalFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3A6F22741D9D96EA00E518B1 /* AGTCoreDataCollectionViewController.h */,
+				3A6F22751D9D96EA00E518B1 /* AGTCoreDataCollectionViewController.m */,
+				3A6F22711D9D967000E518B1 /* AGTCoreDataTableViewController.h */,
+				3A6F22721D9D967000E518B1 /* AGTCoreDataTableViewController.m */,
+			);
+			name = ExternalFiles;
+			sourceTree = "<group>";
+		};
+		3A6F22781D9FB9A800E518B1 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				3A6F227D1D9FBAB700E518B1 /* APLBookTableViewController.h */,
+				3A6F227E1D9FBAB700E518B1 /* APLBookTableViewController.m */,
+				3A6F227F1D9FBAB700E518B1 /* APLBookTableViewController.xib */,
+			);
+			name = Books;
+			sourceTree = "<group>";
+		};
+		3A6F22791D9FB9B000E518B1 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Annotations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +412,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6F22811D9FBAB700E518B1 /* APLBookTableViewController.xib in Resources */,
 				3A6F21A01D9AD4C600E518B1 /* LaunchScreen.storyboard in Resources */,
 				3A6F219D1D9AD4C600E518B1 /* Assets.xcassets in Resources */,
 			);
@@ -390,6 +441,7 @@
 			files = (
 				3A6F21951D9AD4C500E518B1 /* AppDelegate.m in Sources */,
 				3A6F22541D9C3BD500E518B1 /* _APLCover.m in Sources */,
+				3A6F22731D9D967000E518B1 /* AGTCoreDataTableViewController.m in Sources */,
 				3A6F22551D9C3BD500E518B1 /* _APLPdfData.m in Sources */,
 				3A6F22681D9C3C1400E518B1 /* APLAnnotation.m in Sources */,
 				3A6F22691D9C3C1400E518B1 /* APLAuthor.m in Sources */,
@@ -399,8 +451,10 @@
 				3A6F226A1D9C3C1400E518B1 /* APLBook.m in Sources */,
 				3A6F21C61D9AD58500E518B1 /* AGTSimpleCoreDataStack.m in Sources */,
 				3A6F226E1D9C3C1400E518B1 /* APLPhoto.m in Sources */,
+				3A6F22801D9FBAB700E518B1 /* APLBookTableViewController.m in Sources */,
 				3A6F22531D9C3BD500E518B1 /* _APLBookTag.m in Sources */,
 				3A6F226F1D9C3C1400E518B1 /* APLTag.m in Sources */,
+				3A6F22761D9D96EA00E518B1 /* AGTCoreDataCollectionViewController.m in Sources */,
 				3A6F22521D9C3BD500E518B1 /* _APLBook.m in Sources */,
 				3A6F226B1D9C3C1400E518B1 /* APLBookTag.m in Sources */,
 				3A6F22561D9C3BD500E518B1 /* _APLPhoto.m in Sources */,
