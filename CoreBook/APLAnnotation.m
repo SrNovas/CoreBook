@@ -35,4 +35,48 @@
     
 }
 
+-(NSArray *) array{
+    
+    NSMutableArray *elements = [NSMutableArray array];
+    
+    if (self.name) {
+    
+        [elements addObject:self.name];
+    
+    }
+    
+    if(self.text){
+     
+        [elements addObject:self.text];
+    
+    }
+    
+    if(self.photo.image){
+    
+        [elements addObject:self.photo.image];
+    
+    }
+    
+    return elements;
+    
+}
+
++(NSArray *) observableAttributes{
+    
+    //Devuelvo mi APLAnnotationRelationships de mi _APLAnnotation.m (Machine).
+    return @[APLAnnotationRelationships.photo,
+             APLAnnotationAttributes.text,
+             APLAnnotationAttributes.name];
+
+}
+
+- (void)observeValueForKeyPath:(NSString *) keyPath
+                      ofObject:(id) object
+                        change:(NSDictionary *) change
+                       context:(void *) context {
+    
+    self.modificationDate = [NSDate date];
+
+}
+
 @end
