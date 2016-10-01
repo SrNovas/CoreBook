@@ -112,6 +112,7 @@
 		3A6F227D1D9FBAB700E518B1 /* APLBookTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLBookTableViewController.h; sourceTree = "<group>"; };
 		3A6F227E1D9FBAB700E518B1 /* APLBookTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLBookTableViewController.m; sourceTree = "<group>"; };
 		3A6F227F1D9FBAB700E518B1 /* APLBookTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APLBookTableViewController.xib; sourceTree = "<group>"; };
+		3A6F22821D9FCAE100E518B1 /* AGTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGTDetailViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,6 +286,7 @@
 				3A6F22751D9D96EA00E518B1 /* AGTCoreDataCollectionViewController.m */,
 				3A6F22711D9D967000E518B1 /* AGTCoreDataTableViewController.h */,
 				3A6F22721D9D967000E518B1 /* AGTCoreDataTableViewController.m */,
+				3A6F22821D9FCAE100E518B1 /* AGTDetailViewController.h */,
 			);
 			name = ExternalFiles;
 			sourceTree = "<group>";

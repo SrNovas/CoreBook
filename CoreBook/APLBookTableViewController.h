@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AGTCoreDataTableViewController.h"
 
-@interface APLBookTableViewController : UITableViewController
+@class APLLibrary;
 
+@interface APLBookTableViewController : AGTCoreDataTableViewController
+
+-(id) initWithFetchedResultsController:(NSFetchedResultsController *) aFetchedResultsController
+                               library:(APLLibrary *) aLibrary
+                                 style:(UITableViewStyle) aStyle;
 @end
