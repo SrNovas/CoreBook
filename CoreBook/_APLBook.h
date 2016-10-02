@@ -43,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) APLCover *coverImage;
 
-@property (nonatomic, strong) APLPdfData *pdfDate;
+@property (nonatomic, strong) APLPdfData *pdfData;
 
 @end
 
@@ -94,8 +94,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (APLCover*)primitiveCoverImage;
 - (void)setPrimitiveCoverImage:(APLCover*)value;
 
-- (APLPdfData*)primitivePdfDate;
-- (void)setPrimitivePdfDate:(APLPdfData*)value;
+- (APLPdfData*)primitivePdfData;
+- (void)setPrimitivePdfData:(APLPdfData*)value;
 
 @end
 
@@ -110,7 +110,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)authors;
 + (NSString *)bookTags;
 + (NSString *)coverImage;
-+ (NSString *)pdfDate;
++ (NSString *)pdfData;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -73,7 +73,7 @@
 
 @dynamic coverImage;
 
-@dynamic pdfDate;
+@dynamic pdfData;
 
 @end
 
@@ -102,8 +102,8 @@
 + (NSString *)coverImage {
 	return @"coverImage";
 }
-+ (NSString *)pdfDate {
-	return @"pdfDate";
++ (NSString *)pdfData {
+	return @"pdfData";
 }
 @end
 

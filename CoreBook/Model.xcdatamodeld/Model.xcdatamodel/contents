@@ -20,7 +20,7 @@
         <relationship name="authors" toMany="YES" deletionRule="Nullify" destinationEntity="Author" inverseName="books" inverseEntity="Author" syncable="YES"/>
         <relationship name="bookTags" toMany="YES" deletionRule="Nullify" destinationEntity="BookTag" inverseName="book" inverseEntity="BookTag" syncable="YES"/>
         <relationship name="coverImage" maxCount="1" deletionRule="Cascade" destinationEntity="Cover" inverseName="book" inverseEntity="Cover" syncable="YES"/>
-        <relationship name="pdfDate" maxCount="1" deletionRule="Cascade" destinationEntity="PdfData" inverseName="book" inverseEntity="PdfData" syncable="YES"/>
+        <relationship name="pdfData" maxCount="1" deletionRule="Cascade" destinationEntity="PdfData" inverseName="book" inverseEntity="PdfData" syncable="YES"/>
     </entity>
     <entity name="BookTag" representedClassName="APLBookTag" syncable="YES">
         <relationship name="book" maxCount="1" deletionRule="Nullify" destinationEntity="Book" inverseName="bookTags" inverseEntity="Book" syncable="YES"/>
@@ -32,7 +32,7 @@
     </entity>
     <entity name="PdfData" representedClassName="APLPdfData" syncable="YES">
         <attribute name="pdfData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
-        <relationship name="book" maxCount="1" deletionRule="Nullify" destinationEntity="Book" inverseName="pdfDate" inverseEntity="Book" syncable="YES"/>
+        <relationship name="book" maxCount="1" deletionRule="Nullify" destinationEntity="Book" inverseName="pdfData" inverseEntity="Book" syncable="YES"/>
     </entity>
     <entity name="Photo" representedClassName="APLPhoto" syncable="YES">
         <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
