@@ -8,6 +8,11 @@
 
 @implementation APLTag
 
-// Custom logic goes here.
++(instancetype) tagWithName:(NSString*) name
+                    context:(NSManagedObjectContext*) context{
+
+    //Falta por implementar.
+    
+}
 
 @end
