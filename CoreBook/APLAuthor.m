@@ -8,6 +8,7 @@
 
 @implementation APLAuthor
 
+//Falta por hacer
 +(instancetype) authorWithName:(NSString *) name
                        context:(NSManagedObjectContext *) context{
     
